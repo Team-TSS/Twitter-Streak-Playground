@@ -1,3 +1,10 @@
 {
-	"recommendations": ["streetsidesoftware.code-spell-checker"]
+	"recommendations": [
+		"streetsidesoftware.code-spell-checker",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"rvest.vs-code-prettier-eslint",
+		"mhutchie.git-graph",
+		
+	]
 }

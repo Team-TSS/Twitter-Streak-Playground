@@ -1,3 +1,3 @@
 export default function Card() {
-  return <div>Card - Works</div>;
+	return <div className='card'>Card - Works</div>;
 }
