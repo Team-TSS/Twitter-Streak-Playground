@@ -1,5 +1,7 @@
+import { Card } from './components';
+
 function App() {
-  return 'Playground';
+  return <div><Card /></div>
 }
 
 export default App;
