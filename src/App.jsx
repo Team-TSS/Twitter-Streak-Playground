@@ -1,5 +1,5 @@
 function App() {
-	return "Playground"
+  return 'Playground';
 }
 
-export default App
+export default App;
