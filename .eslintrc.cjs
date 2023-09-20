@@ -17,6 +17,7 @@
 'use strict';
 
 module.exports = {
+	extends: ['plugin:react/recommended', 'plugin:@html-eslint/recommended'],
 	root: true,
 	env: {
 		es6: true,
@@ -194,7 +195,8 @@ module.exports = {
 		// http://eslint.org/docs/rules/#stylistic-issues
 		// ----------------------------------------------
 		// 'array-bracket-newline': 'off', // eslint:recommended
-		'extends': ['plugin:react/recommended'],
+		'react/react-in-jsx-scope': 'off',
+		'react/jsx-filename-extension': [1, { extensions: ['.jsx'] }],
 		'no-unused-vars': 'warn',
 		'array-bracket-spacing': ['error', 'never'],
 		'array-element-newline': 'off', // eslint:recommended
