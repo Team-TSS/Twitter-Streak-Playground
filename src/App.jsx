@@ -1,7 +1,7 @@
 import { Card } from './components';
-
+const a = 'aasa';
 function App() {
-  return <div><Card /></div>
+  return <Card />;
 }
 
 export default App;

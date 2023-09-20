@@ -1,11 +1,11 @@
 module.exports = {
-  components: './src/components',
+  components: './src/components/index.jsx',
   outputPath: './dist/playroom',
 
   // Optional:
   title: 'Playground',
   // themes: './src/themes',
-  snippets: './playroom/snippets.js',
+  // snippets: './playroom/snippets.js',
   // frameComponent: './playroom/FrameComponent.js',
   // scope: './playroom/useScope.js',
   widths: [320, 768, 1024],
@@ -17,6 +17,6 @@ module.exports = {
       Hello World!
     </button>
   `,
-  baseUrl: '/play/',
+  baseUrl: '/pg/',
   iframeSandbox: 'allow-scripts',
 };
