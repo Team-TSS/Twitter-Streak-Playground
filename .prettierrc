@@ -7,4 +7,5 @@
   "jsxSingleQuote": true,
   "arrowParens": "always",
   "quoteProps": "consistent"
+  
 }
