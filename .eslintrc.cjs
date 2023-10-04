@@ -17,7 +17,7 @@
 'use strict';
 
 module.exports = {
-	extends: ['plugin:react/recommended', 'plugin:@html-eslint/recommended'],
+	extends: ['plugin:react/recommended', 'plugin:@html-eslint/recommended', 'plugin:storybook/recommended'],
 	root: true,
 	env: {
 		es6: true,
