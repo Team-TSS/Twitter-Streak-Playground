@@ -9,8 +9,8 @@
     "preview": "vite preview",
     "pg:start": "playroom start",
     "pg:build": "playroom build",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook:dev": "storybook dev -p 6006",
+    "storybook:build": "storybook build"
   },
   "dependencies": {
     "eslint-plugin-html": "^7.1.0",
